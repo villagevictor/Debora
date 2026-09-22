@@ -1,0 +1,6 @@
+{
+  "name": "STOREMAN ERP",
+  "description": "Complete enterprise multi-company ERP system with inventory ledger, double-entry accounting, POS, workflows, and offline synchronization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

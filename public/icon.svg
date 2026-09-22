@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="storeman-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone -->
+  <rect width="512" height="512" rx="104" fill="url(#storeman-grad)" />
+  <!-- Hexagon / Box 3D Geometry representing Warehouse & ERP -->
+  <g transform="translate(256, 256)">
+    <!-- Top Face -->
+    <path d="M 0,-140 L 120,-70 L 0,0 L -120,-70 Z" fill="#60a5fa" />
+    <!-- Left Face -->
+    <path d="M -120,-70 L 0,0 L 0,140 L -120,70 Z" fill="#2563eb" />
+    <!-- Right Face -->
+    <path d="M 0,0 L 120,-70 L 120,70 L 0,140 Z" fill="#1d4ed8" />
+    <!-- Inner ERP Circuit Nodes -->
+    <circle cx="0" cy="-70" r="14" fill="#ffffff" />
+    <circle cx="-60" cy="35" r="14" fill="#ffffff" />
+    <circle cx="60" cy="35" r="14" fill="#ffffff" />
+    <line x1="0" y1="-70" x2="-60" y2="35" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+    <line x1="0" y1="-70" x2="60" y2="35" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+    <line x1="-60" y1="35" x2="60" y2="35" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+  </g>
+</svg>
